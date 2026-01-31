@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "longer-command-history",
+	"version": "${version}",
+	"name": "Longer Command History",
+	"description": "Mod make your command history even looooonger",
+	"authors": [
+		"AnGrTea"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/longer-command-history/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"angrtea.lch.LongerCommandHistory"
+		]
+	},
+	"mixins": [
+		"longer-command-history.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+        "minecraft": ">=1.20.5"
+	}
+}

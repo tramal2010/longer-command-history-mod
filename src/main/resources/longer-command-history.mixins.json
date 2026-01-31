@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "angrtea.lch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandHistoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "ChatComponentMixin"
+  ]
+}
